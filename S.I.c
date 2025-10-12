@@ -1,0 +1,9 @@
+//simple interest
+#include <stdio.h>
+int main() {
+    float P, R, T, SI;
+    scanf("%f %f %f", &P, &R, &T);
+    SI = (P * R * T) / 100;
+    printf("%.2f\n", SI);
+    return 0;
+}
